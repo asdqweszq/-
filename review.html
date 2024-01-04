@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>精彩回顾</title>
+<style type="text/css">
+	*{
+		padding: 0px;
+		margin: 0px;
+	}
+	body{
+		background:url(img/images/bj2.jpg);
+	}
+	#h{
+		background:url(img/images/top.jpg);
+		width: 867px;
+		height: 323px;
+		margin: 0px auto;
+	}
+	#m{
+		background:url(img/images/caidan.jpg);
+		width: 867px;
+		height: 51px;
+		margin: 0px auto;
+	}
+	#m ul{
+		list-style-type: none;
+		color: white;
+	}
+	#m ul li{
+		float:left;
+		width: 124px;
+		text-align: center;
+	}
+	#m ul li a{
+		font-size: 15px;
+		line-height: 51px;
+		color: white;
+		display: inline-block;
+		width: 124px;
+		height: 51px;
+		text-decoration: none;
+	}
+	
+	#m ul li#mli{
+		width: 123px;
+	}
+	#m ul li#mli a{
+		width: 123px;
+	}
+	#m ul li a:hover{
+		color:pink;
+		font-size: 16px;
+		text-decoration: underline;
+	}
+	#c{
+		background: orange;
+		width: 867px;
+		margin: 0px auto;
+	}
+	#b{
+		background:url(img/images/bottom.jpg);
+		width: 867px;
+		height: 100px;
+		margin: 0px auto;
+		clear:left;
+	}
+	img{
+		display: block;
+	}
+	.e{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.q{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	.a{
+		margin-top: 20px;
+		margin-left: 10px;
+	}
+	.z{
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+	.w{
+		margin-top: 20px;
+		margin-left:20px;
+	}
+	.s{
+		margin-top: 20px;
+		margin-left:10px;
+	}
+	.x{
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+	
+	.n{
+		margin-top: 20px;
+		margin-left:20px;
+	}
+	.m{
+		margin-top: 20px;
+		margin-left:10px;
+	}
+	.k{
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+	#ctop{
+		background:white;
+		width:867px;
+		height:70px;
+		float: left;
+	}
+	#cl1{
+		background:white;
+		width:289px;
+		height:250px;
+		float: left;
+	}
+	#cl1 h3{
+		margin-left: 105px;
+		margin-top: 10px;
+	}
+	#cl1 p{
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+		letter-spacing:1px;
+		text-indent: 2em;
+		line-height: 22px;
+		font-weight: normal;
+		text-align: justify;
+	}
+	#cm1{
+		background:white;
+		width:289px;
+		height:250px;
+		float: left;
+	}
+	#cm1 h3{
+		margin-left: 90px;
+		margin-top: 10px;
+	}
+	#cm1 p{
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+		letter-spacing:1px;
+		text-indent: 2em;
+		line-height: 22px;
+		font-weight: normal;
+		text-align: justify;
+	}
+	#cr1{
+		background: white;
+		width: 289px;
+		height:250px;
+		float: left;
+	}
+	#cr1 h3{
+		margin-left:80px;
+		margin-top: 10px;
+	}
+	#cr1 p{
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+		letter-spacing:1px;
+		text-indent: 2em;
+		line-height: 21px;
+		font-weight: normal;
+		text-align: justify;
+	}
+	#cl2{
+		background: white;
+		width:289px;
+		height:250px;
+		float: left;
+	}
+	#cl2 h3{
+		margin-left: 90px;
+		margin-top: 10px;
+	}
+	#cl2 p{
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+		letter-spacing:1px;
+		text-indent: 2em;
+		line-height: 21px;
+		font-weight: normal;
+		text-align: justify;
+	}
+	#cm2{
+		background: white;
+		width:289px;
+		height:250px;
+		float: left;
+	}
+	#cm2 h3{
+		margin-left: 70px;
+		margin-top: 10px;
+	}
+	#cm2 p{
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+		letter-spacing:1px;
+		text-indent: 2em;
+		line-height: 21px;
+		font-weight: normal;
+		text-align: justify;
+	}
+	#cr2{
+		background: white;
+		width:289px;
+		height:250px;
+		float: left;
+	}
+	#cr2 h3{
+		margin-left: 80px;
+		margin-top: 10px;
+	}
+	#cr2 p{
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+		letter-spacing:1px;
+		text-indent: 2em;
+		line-height: 21px;
+		font-weight: normal;
+		text-align: justify;
+	}
+	
+	#cl3{
+		background: white;
+		width:289px;
+		height:250px;
+		float: left;
+	}
+	#cl3 h3{
+		margin-left: 90px;
+		margin-top: 10px;
+	}
+	#cl3 p{
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+		letter-spacing:1px;
+		text-indent: 2em;
+		line-height: 21px;
+		font-weight: normal;
+		text-align: justify;
+	}
+	#cm3{
+		background: white;
+		width:289px;
+		height:250px;
+		float: left;
+	}
+	#cm3 h3{
+		margin-left: 70px;
+		margin-top: 10px;
+	}
+	#cm3 p{
+		margin-top: 10px;
+		margin-right: 40px;
+		letter-spacing:1px;
+		text-indent: 2em;
+		line-height: 21px;
+		font-weight: normal;
+		text-align: justify;
+	}
+	#cr3{
+		background: white;
+		width:289px;
+		height:250px;
+		float: left;
+	}
+	#cr3 h3{
+		margin-left: 80px;
+		margin-top: 10px;
+	}
+	#cr3 p{
+		margin-top: 10px;
+		margin-left: 40px;
+		margin-right: 40px;
+		letter-spacing:1px;
+		text-indent: 2em;
+		line-height: 21px;
+		font-weight: normal;
+		text-align: justify;
+	}
+</style>
+</head>
+
+<body>
+	<div id="h"></div>
+	<div id="m">
+	    <ul>
+			<li><a href="./index.html">网站首页</a></li>
+			<li><a href="./Author.html">作者简介</a></li>
+			<li><a href="./character-intro.html">人物简介</a></li>
+			<li><a href="./Synopsis.html">剧情简介</a></li>
+			<li><a href="./review.html">精彩回顾</a></li>
+			<li><a href="./login.html">快速登录</a></li>
+			<li id="mli"><a href="./Sign.html">粉丝注册</a></li>
+	    </ul>
+	</div>
+	<div id="c" style=" background:#fff; padding-bottom:80px;">
+		<div id="ctop">
+			<img src="img/images/a6.png" class="e">
+		</div>
+	    
+		   <center>    
+  <video id="video1" width="630" height="450" controls loop>
+        <source src="./img/images/music.m4a" type="video/mp4" />
+      </video>
+
+</center>
+
+	
+		 
+	</div>
+	<div id="b"></div>
+</body>
+</html>
